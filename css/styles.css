@@ -608,6 +608,9 @@ progress {
   background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1));
   filter: grayscale(100%);
 }
+.coffee-row {
+  background-color: black;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -1396,6 +1399,7 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
+    box-shadow: 0px -2px 2px -1px black, .2px .2px 2px black;
   }
 
   .col-lg-7 {
@@ -11613,12 +11617,29 @@ body {
 .about-section p {
   margin-bottom: 5rem;
 }
-.project-3-4{
+
+@media (max-width: 992px) {
+  .fa-arrow-right, .fa-arrow-left {
+    display: none;
+  }
+}
+
+.project-3-4 {
   margin-top: 25.5px;
 }
+@media (min-width: 992px) {
+  .project-3-4 {
+    margin-top: 0px;
+  }
+  .breaking {
+    display: none;
+  }
+}
+
 .projects-section {
   padding: 10rem 0;
 }
+
 .projects-section .featured-text {
   padding: 2rem;
 }
@@ -11631,8 +11652,8 @@ body {
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
-  background: linear-gradient(rgb(62,62,62), black);
 }
+
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
