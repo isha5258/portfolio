@@ -7428,6 +7428,10 @@ textarea.form-control-lg {
   margin-left: 0.5rem !important;
 }
 
+.ext-link {
+  color: black;
+}
+
 .mx-3 {
   margin-right: 1rem !important;
   margin-left: 1rem !important;
