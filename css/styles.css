@@ -695,6 +695,72 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+.i-con{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tech {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  height: 5rem;
+}
+
+.icon-container {
+  margin: 2rem 2rem 3rem;
+  font-size: .75rem;
+}
+
+.icon-text {
+  font-size: .75rem;
+}
+
+.html-i, .html-con {
+  color: #e44d27
+}
+
+
+
+.css-i, .css-con{
+  color:#264de4 ;
+}
+
+.js-i, .js-con {
+  color: #e9ca34;
+}
+
+.node-i, .node-con {
+  color:#7fbc02;
+}
+
+.react-i, .react-con {
+  color: #00ccff;
+}
+
+.boot-i, .boot-con {
+  color: #00ccff;
+}
+
+.post, .post-con{
+  color: #0177bd;
+}
+
+.post-t {
+  margin-top: -1rem;
+}
+
+.flask-i {
+  background: linear-gradient(black, white, black);
+  border-radius: 10px;
+}
+.flask-span {
+  color: #808080;
+}
+
+.py-i, .py-con {
+  color: #808080;
+}
 
 .col {
   flex: 1 0 0%;
