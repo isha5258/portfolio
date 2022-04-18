@@ -608,6 +608,10 @@ progress {
   background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1));
   filter: grayscale(100%);
 }
+.computer {
+  filter: grayscale(90%);
+}
+
 .coffee-row {
   background-color: black;
 }
@@ -11572,7 +11576,8 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/mt-img.jpg");
+  filter: grayscale(100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11616,7 +11621,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: black
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11657,7 +11662,6 @@ body {
   padding: 3rem;
   font-size: 90%;
 }
-
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
@@ -11667,6 +11671,10 @@ body {
     border-width: 0.25rem;
     width: 30%;
   }
+}
+
+.project-links:hover{
+  color: #808080;
 }
 
 .signup-section {
