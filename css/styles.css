@@ -608,6 +608,10 @@ progress {
   background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1));
   filter: grayscale(100%);
 }
+.pro-img:hover {
+  transition-delay: 100ms;
+  filter: grayscale(0);
+}
 .computer {
   filter: grayscale(90%);
 }
