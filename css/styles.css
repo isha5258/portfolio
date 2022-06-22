@@ -603,7 +603,7 @@ progress {
   filter: grayscale(0);
 }
 .computer {
-  filter: grayscale(90%);
+  filter: grayscale(80%);
 }
 
 .coffee-row {
@@ -699,6 +699,7 @@ progress {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  filter: grayscale(45%);
 }
 
 .tech {
@@ -11805,6 +11806,19 @@ body {
 .contact-section .social a:active {
   color: #fff;
 }
+
+.relocate {
+  font-size: x-small;
+}
+
+.social-link {
+  color: white !important;
+}
+
+.social-link:hover {
+  color: #64a19d !important;
+}
+
 
 .footer {
   padding: 5rem 0;
