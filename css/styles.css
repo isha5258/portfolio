@@ -11742,10 +11742,11 @@ body {
 
 .project-links {
   text-decoration: none;
+  color: white;
 }
 
 .project-links:hover{
-  color: #808080;
+  color: #64a19d;
 }
 
 .signup-section {
