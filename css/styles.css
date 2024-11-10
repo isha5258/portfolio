@@ -11833,3 +11833,16 @@ body {
   margin-left: 0;
 
 }
+
+@media (max-width: 450px) {
+  
+  .container {
+      max-width: 100% !important; /* Ensures container doesn’t exceed viewport width */
+  }
+  html, body {
+    overflow-x: hidden;
+}
+}
+@media (max-width: 415px) {
+  
+}
